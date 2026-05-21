@@ -9,17 +9,20 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      question_text: {
+      option_1: {
+        type: Sequelize.STRING
+      },
+      option_2: {
+        type: Sequelize.STRING
+      },
+      option_3: {
+        type: Sequelize.STRING
+      },
+      option_4: {
         type: Sequelize.STRING
       },
       correct_answer: {
         type: Sequelize.STRING
-      },
-      score: {
-        type: Sequelize.INTEGER
-      },
-      question_id: {
-        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

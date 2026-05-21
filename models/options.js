@@ -1,7 +1,6 @@
 'use strict';
 const {
-  Model,
-  Op
+  Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class Options extends Model {
@@ -13,13 +12,15 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       Options.belongsTo(models.Questions, { foreignKey: "question_id" });
+
     }
   }
   Options.init({
-    question_text: DataTypes.STRING,
-    correct_answer: DataTypes.STRING,
-    score: DataTypes.INTEGER,
-    question_id: DataTypes.INTEGER
+    option_1: DataTypes.STRING,
+    option_2: DataTypes.STRING,
+    option_3: DataTypes.STRING,
+    option_4: DataTypes.STRING,
+    correct_answer: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Options',

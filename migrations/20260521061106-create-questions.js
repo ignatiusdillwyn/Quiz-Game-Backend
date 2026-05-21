@@ -12,9 +12,6 @@ module.exports = {
       question_text: {
         type: Sequelize.STRING
       },
-      correct_answer: {
-        type: Sequelize.STRING
-      },
       score: {
         type: Sequelize.INTEGER
       },
