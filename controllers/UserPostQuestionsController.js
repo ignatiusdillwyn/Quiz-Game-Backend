@@ -37,33 +37,54 @@ class UserPostQuestionsController {
 
     static async add(req, res) {
         try {
-          // console.log("req.body:", req.body);
-    
-          let { email, password, username, image } = req.body;
-          password = encryptPwd(password);
-    
-          // console.log("Encrypted Password:", password);
-          const user = await UserPostQuestions.create({
-            email,
-            password,
-            username,
-            image,
-          });
-    
-          res.status(201).json({
-            status: 201,
-            message: "User created successfully",
-            user: {
-              id: user.id,
-              email: user.email,
-              username: user.username,
-              image: user.image,
-            },
-          });
+            // console.log("req.body:", req.body);
+
+            let { email, password, username, image } = req.body;
+
+            // 1. VALIDASI PASSWORD ASLI TERLEBIH DAHULU
+            if (!password || password.length < 8) {
+                return res.status(400).json({
+                    message: "Password must be at least 8 characters"
+                });
+            }
+
+            if (!/[a-zA-Z]/.test(password)) {
+                return res.status(400).json({
+                    message: "Password must contain at least one letter"
+                });
+            }
+
+            if (!/[0-9]/.test(password)) {
+                return res.status(400).json({
+                    message: "Password must contain at least one number"
+                });
+            }
+
+            password = encryptPwd(password);
+
+            // console.log("Encrypted Password:", password);
+            const user = await UserPostQuestions.create({
+                email,
+                password,
+                username,
+                image,
+            });
+
+            res.status(201).json({
+                status: 201,
+                message: "User created successfully",
+                user: {
+                    id: user.id,
+                    email: user.email,
+                    username: user.username,
+                    image: user.image,
+                },
+            });
         } catch (error) {
-          res.status(400).json({ message: error.message });
+            console.error("Error creating user:", error.errors[0].message);
+            res.status(400).json({ message: error.errors[0].message });
         }
-      }
+    }
 
     static async register(req, res) {
         try {

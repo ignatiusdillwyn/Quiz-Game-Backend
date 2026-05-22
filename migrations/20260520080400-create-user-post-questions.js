@@ -10,9 +10,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       email: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       password: {
+        allowNull: false,
+        type: Sequelize.STRING
+      },
+      username: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {
@@ -23,6 +29,19 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       }
+    });
+    
+    // Tambahkan unique constraint dengan nama custom
+    await queryInterface.addConstraint('UserPostQuestions', {
+      fields: ['email'],
+      type: 'unique',
+      name: 'unique_email_constraint'
+    });
+    
+    await queryInterface.addConstraint('UserPostQuestions', {
+      fields: ['username'],
+      type: 'unique',
+      name: 'unique_username_constraint'
     });
   },
   async down(queryInterface, Sequelize) {
