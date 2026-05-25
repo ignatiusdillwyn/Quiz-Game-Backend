@@ -1,0 +1,204 @@
+const { UserParticipant } = require("../models");
+const { Op } = require("sequelize");
+const axios = require("axios");
+const { encryptPwd, decryptPwd } = require("../helpers/bcrypt");
+const { tokenGenerator } = require("../helpers/jwt");
+
+class UserParticipantController {
+    static async getUsers(req, res) {
+        try {
+            const users = await UserParticipant.findAll({
+                attributes: { exclude: ["password"] },
+            });
+
+            res.json(users);
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    static async getUserById(req, res) {
+        try {
+            const { id } = req.params;
+
+            const user = await UserParticipant.findByPk(id, {
+                attributes: { exclude: ["password"] },
+            });
+
+            if (!user) {
+                return res.status(404).json({ message: "User not found" });
+            }
+
+            res.json(user);
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    static async add(req, res) {
+        try {
+            // console.log("req.body:", req.body);
+
+            let { email, password, username, image } = req.body;
+
+            // 1. VALIDASI PASSWORD ASLI TERLEBIH DAHULU
+            if (!password || password.length < 8) {
+                return res.status(400).json({
+                    message: "Password must be at least 8 characters"
+                });
+            }
+
+            if (!/[a-zA-Z]/.test(password)) {
+                return res.status(400).json({
+                    message: "Password must contain at least one letter"
+                });
+            }
+
+            if (!/[0-9]/.test(password)) {
+                return res.status(400).json({
+                    message: "Password must contain at least one number"
+                });
+            }
+
+            password = encryptPwd(password);
+
+            // console.log("Encrypted Password:", password);
+            const user = await UserParticipant.create({
+                email,
+                password,
+                username,
+                image,
+            });
+
+            res.status(201).json({
+                status: 201,
+                message: "User created successfully",
+                user: {
+                    id: user.id,
+                    email: user.email,
+                    username: user.username,
+                    image: user.image,
+                },
+            });
+        } catch (error) {
+            console.error("Error creating user:", error.errors[0].message);
+            res.status(400).json({ message: error.errors[0].message });
+        }
+    }
+
+    static async register(req, res) {
+        try {
+            const { email, password, username } = req.body;
+
+            const user = await UserParticipant.create({
+                email,
+                password,
+                username
+            });
+
+            res.status(201).json({
+                status: 201,
+                message: "Register success",
+                user: {
+                    id: user.id,
+                    email: user.email,
+                },
+            });
+        } catch (error) {
+            res.status(400).json({ message: error.message });
+        }
+    }
+
+    static async login(req, res) {
+        try {
+            const { email, password } = req.body;
+
+            const user = await UserParticipant.findOne({ where: { email } });
+
+            if (!user) {
+                return res.status(401).json({ message: "Wrong email" });
+            }
+
+            let decrtyptPass = decryptPwd(password, user.password);
+
+            if (!decrtyptPass) {
+                return res.status(401).json({ message: "Wrong password" });
+            } else {
+                let token = tokenGenerator(user);
+                console.log('user ', user)
+                res.json({
+                    status: 200,
+                    message: "Login success",
+                    user: {
+                        id: user.id,
+                        username: user.username,
+                        email: user.email,
+                        token: token
+                    },
+                });
+            }
+
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    static async edit(req, res) {
+        try {
+            const { id } = req.params;
+            const { username, image } = req.body;
+
+            const user = await UserParticipant.findByPk(id);
+
+            if (!user) {
+                return res.status(404).json({ message: "User not found" });
+            }
+
+            await user.update({ username, image });
+
+            res.json({ message: "User updated successfully" });
+        } catch (error) {
+            res.status(400).json({ message: error.message });
+        }
+    }
+
+    static async delete(req, res) {
+        try {
+            const { id } = req.params;
+
+            const user = await UserParticipant.findByPk(id);
+
+            if (!user) {
+                return res.status(404).json({ message: "User not found" });
+            }
+
+            await user.destroy();
+
+            res.json({ message: "User deleted successfully" });
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    static async search(req, res) {
+        try {
+            const { q } = req.query;
+
+            const users = await UserParticipant.findAll({
+                where: {
+                    [Op.or]: [
+                        { email: { [Op.iLike]: `%${q}%` } },
+                        { username: { [Op.iLike]: `%${q}%` } },
+                    ],
+                },
+                attributes: { exclude: ["password"] },
+            });
+
+            res.json(users);
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+}
+
+module.exports = UserParticipantController

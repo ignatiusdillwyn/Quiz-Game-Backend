@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Options extends Model {
+  class Leaderbord extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -11,18 +11,19 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      Options.belongsTo(models.Questions, { foreignKey: "question_id" });
     }
   }
-  Options.init({
-    option_1: DataTypes.STRING,
-    option_2: DataTypes.STRING,
-    option_3: DataTypes.STRING,
-    option_4: DataTypes.STRING,
-    correct_answer: DataTypes.STRING
+  Leaderbord.init({
+    question_id: DataTypes.INTEGER,
+    userParticipant_id: DataTypes.INTEGER,
+    score: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 0
+    },
   }, {
     sequelize,
-    modelName: 'Options',
+    modelName: 'Leaderbord',
   });
-  return Options;
+  return Leaderbord;
 };

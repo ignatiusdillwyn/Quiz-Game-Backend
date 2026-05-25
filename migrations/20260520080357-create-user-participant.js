@@ -17,11 +17,6 @@ module.exports = {
         allowNull: false,
         type: Sequelize.STRING
       },
-      score: {
-        allowNull: false,
-        defaultValue: 0,
-        type: Sequelize.INTEGER
-      },
       username: {
         allowNull: false,
         type: Sequelize.STRING

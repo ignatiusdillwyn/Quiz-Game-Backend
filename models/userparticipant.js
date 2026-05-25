@@ -17,14 +17,14 @@ module.exports = (sequelize, DataTypes) => {
         msg: 'Email is already registered'  // ← pindahkan pesan error ke sini
       },
       validate: {
+        notEmpty: {
+          args: true,
+          msg: "Email cannot be empty"
+        },
         isEmail: {
           args: true,
           msg: "Email format is invalid"
         },
-        notEmpty: {
-          args: true,
-          msg: "Email cannot be empty"
-        }
       }
     },
     password: {
@@ -48,11 +48,6 @@ module.exports = (sequelize, DataTypes) => {
           }
         }
       }
-    },
-    score: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      defaultValue: 0
     },
     username: {
       type: DataTypes.STRING,
