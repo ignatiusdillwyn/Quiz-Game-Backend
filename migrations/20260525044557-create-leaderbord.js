@@ -9,16 +9,24 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      question_id: {
-        type: Sequelize.INTEGER
-      },
       userParticipant_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        references: {
+          model: 'UserParticipants',
+          key: 'id'
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'CASCADE'
       },
       score: {
         allowNull: false,
         defaultValue: 0,
         type: Sequelize.INTEGER
+      },
+      code: {
+        type: Sequelize.STRING,
+        allowNull: false,
       },
       createdAt: {
         allowNull: false,

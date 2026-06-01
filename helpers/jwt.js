@@ -2,12 +2,13 @@ const jwt = require("jsonwebtoken");
 const secretCode = "bebas";
 
 const tokenGenerator = (data) => {
-  const { id, email, image } = data;
+  const { id, email, username, type } = data;
   const token = jwt.sign(
     {
       id,
       email,
-      image,
+      username,
+      type: data.type
     },
     secretCode,
     // { expiresIn: '12h' }

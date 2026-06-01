@@ -3,12 +3,13 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class UserParticipant extends Model {
+  class UserParticipants extends Model {
     static associate(models) {
       // define association here
+      UserParticipants.hasOne(models.Leaderbord, { foreignKey: "userParticipant_id" });
     }
   }
-  UserParticipant.init({
+  UserParticipants.init({
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -73,7 +74,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   }, {
     sequelize,
-    modelName: 'UserParticipant',
+    modelName: 'UserParticipants',
   });
-  return UserParticipant;
+  return UserParticipants;
 };

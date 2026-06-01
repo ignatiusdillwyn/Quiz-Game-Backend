@@ -9,12 +9,16 @@ router.get(`/${base}`, (req, res) => {
 // const userRouters = require("./UserRoute");
 
 const userPostQuestionRouters = require("./UserPostQuestionsRoute");
-const UserParticipantRouters = require("./UserParticipantRoute");
+const userParticipantRouters = require("./UserParticipantRoute");
+
+const questionRouters = require("./QuestionRoute");
 
 // router.use(`/${base}/products`, productRouters);
 // router.use(`/${base}/users`, userRouters);
 
 router.use(`/${base}/users/question`, userPostQuestionRouters);
-router.use(`/${base}/users/participant`, UserParticipantRouters);
+router.use(`/${base}/users/participant`, userParticipantRouters);
+
+router.use(`/${base}/question`, questionRouters);
 
 module.exports = router;

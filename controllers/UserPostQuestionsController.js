@@ -113,7 +113,7 @@ class UserPostQuestionsController {
         try {
             const { email, password } = req.body;
 
-            const user = await UserPostQuestions.findOne({ where: { email } });
+            let user = await UserPostQuestions.findOne({ where: { email } });
 
             if (!user) {
                 return res.status(401).json({ message: "Wrong email" });
@@ -124,16 +124,20 @@ class UserPostQuestionsController {
             if (!decrtyptPass) {
                 return res.status(401).json({ message: "Wrong password" });
             } else {
-                let token = tokenGenerator(user);
-                console.log('user ', user)
+                let user2 = {
+                    ...user.dataValues,
+                    type: "userPostQuestions"
+                }
+                let token = tokenGenerator(user2);
                 res.json({
                     status: 200,
                     message: "Login success",
                     user: {
-                        id: user.id,
-                        username: user.username,
-                        email: user.email,
-                        token: token
+                        id: user2.id,
+                        username: user2.username,
+                        email: user2.email,
+                        type: user2.type,
+                        token: token,
                     },
                 });
             }

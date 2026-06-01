@@ -1,4 +1,4 @@
-const { UserParticipant } = require("../models");
+const { UserParticipants } = require("../models");
 const { Op } = require("sequelize");
 const axios = require("axios");
 const { encryptPwd, decryptPwd } = require("../helpers/bcrypt");
@@ -7,7 +7,7 @@ const { tokenGenerator } = require("../helpers/jwt");
 class UserParticipantController {
     static async getUsers(req, res) {
         try {
-            const users = await UserParticipant.findAll({
+            const users = await UserParticipants.findAll({
                 attributes: { exclude: ["password"] },
             });
 
@@ -21,7 +21,7 @@ class UserParticipantController {
         try {
             const { id } = req.params;
 
-            const user = await UserParticipant.findByPk(id, {
+            const user = await UserParticipants.findByPk(id, {
                 attributes: { exclude: ["password"] },
             });
 
@@ -63,7 +63,7 @@ class UserParticipantController {
             password = encryptPwd(password);
 
             // console.log("Encrypted Password:", password);
-            const user = await UserParticipant.create({
+            const user = await UserParticipants.create({
                 email,
                 password,
                 username,
@@ -90,7 +90,7 @@ class UserParticipantController {
         try {
             const { email, password, username } = req.body;
 
-            const user = await UserParticipant.create({
+            const user = await UserParticipants.create({
                 email,
                 password,
                 username
@@ -113,7 +113,7 @@ class UserParticipantController {
         try {
             const { email, password } = req.body;
 
-            const user = await UserParticipant.findOne({ where: { email } });
+            const user = await UserParticipants.findOne({ where: { email } });
 
             if (!user) {
                 return res.status(401).json({ message: "Wrong email" });
@@ -124,16 +124,22 @@ class UserParticipantController {
             if (!decrtyptPass) {
                 return res.status(401).json({ message: "Wrong password" });
             } else {
-                let token = tokenGenerator(user);
-                console.log('user ', user)
+                let user2 = {
+                    ...user.dataValues,
+                    type: "userParticipant"
+                }
+
+                console.log("User 2 ", user2); // Debugging log
+                let token = tokenGenerator(user2);
                 res.json({
                     status: 200,
                     message: "Login success",
                     user: {
-                        id: user.id,
-                        username: user.username,
-                        email: user.email,
-                        token: token
+                        id: user2.id,
+                        username: user2.username,
+                        email: user2.email,
+                        type: user2.type,
+                        token: token,
                     },
                 });
             }
@@ -148,7 +154,7 @@ class UserParticipantController {
             const { id } = req.params;
             const { username, image } = req.body;
 
-            const user = await UserParticipant.findByPk(id);
+            const user = await UserParticipants.findByPk(id);
 
             if (!user) {
                 return res.status(404).json({ message: "User not found" });
@@ -166,7 +172,7 @@ class UserParticipantController {
         try {
             const { id } = req.params;
 
-            const user = await UserParticipant.findByPk(id);
+            const user = await UserParticipants.findByPk(id);
 
             if (!user) {
                 return res.status(404).json({ message: "User not found" });
@@ -184,7 +190,7 @@ class UserParticipantController {
         try {
             const { q } = req.query;
 
-            const users = await UserParticipant.findAll({
+            const users = await UserParticipants.findAll({
                 where: {
                     [Op.or]: [
                         { email: { [Op.iLike]: `%${q}%` } },
