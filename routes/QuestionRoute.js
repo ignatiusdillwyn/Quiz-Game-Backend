@@ -21,12 +21,11 @@ questionRouter.post(
 //   authorization,
 //   QuestionsController.updateProduct
 // );
-// questionRouter.get(
-//   "/details/:id",
-//   // authentication,
-
-//   QuestionsController.getProductById
-// );
+questionRouter.get(
+  "/getListQuestionByUserId",
+  authentication,
+  QuestionsController.getAllQuestionByUserId
+);
 // questionRouter.get(
 //   "/search/:name",
 //   authentication,

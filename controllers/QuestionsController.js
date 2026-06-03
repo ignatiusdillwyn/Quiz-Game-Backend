@@ -1,5 +1,5 @@
-const { Questions, Options } = require("../models");
-const { sequelize } = require("sequelize");
+const { Questions, Options, sequelize } = require("../models");
+const { Sequelize } = require("sequelize");
 const axios = require("axios");
 // const { encryptPwd, decryptPwd } = require("../helpers/bcrypt");
 // const { tokenGenerator } = require("../helpers/jwt");
@@ -66,9 +66,25 @@ class QuestionsController {
     static async getAllQuestionByUserId(req, res) {
         try {
             let userId = req.userData.id;
-            // const data = await Employee.findByPk(req.params.id);
-            // if (!data) return res.status(404).json({ message: "Employee not found" });
-            // res.json(data);
+
+            const data = await sequelize.query(`
+                SELECT * FROM "Questions" q 
+                JOIN "Options" o ON q.id = o.question_id 
+                WHERE q.user_id = :userId
+            `, {
+                replacements: { userId: userId },
+                type: Sequelize.QueryTypes.SELECT
+            });
+
+            if (!data || data.length === 0) {
+                return res.status(404).json({ message: "Questions not found for this user" });
+            }
+
+            res.status(200).json({
+                message: "Questions retrieved successfully",
+                status: 200,
+                data: data
+            });
         } catch (error) {
             res.status(500).json({ message: error.message });
         }
@@ -83,7 +99,7 @@ class QuestionsController {
     //         res.json(data);
     //     } catch (error) {
     //         res.status(400).json({ message: error.message });
-    //     }
+    //     } 
     // }
 
     // static async deleteProduct(req, res) {
