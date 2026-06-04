@@ -1,4 +1,4 @@
-const { Product } = require("../models/");
+const { Questions } = require("../models/");
 const { tokenVerifier } = require("../helpers/jwt");
 
 const authentication = (req, res, next) => {
@@ -22,11 +22,11 @@ const authorization = async (req, res, next) => {
   try {
     const id = +req.params.id;
     const UserId = req.userData.id;
-    const product = await Product.findOne({
+    const question = await Questions.findOne({
       where: { id },
     });
-    if (product) {
-      if (product.UserId === UserId) {
+    if (question) {
+      if (question.user_id === UserId) {
         next();
       } else {
         throw {

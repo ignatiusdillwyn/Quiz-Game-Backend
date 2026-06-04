@@ -90,17 +90,21 @@ class QuestionsController {
         }
     }
 
-    // static async updateProduct(req, res) {
-    //     try {
-    //         let userId = req.userData.id;
-    //         const data = await Product.findByPk(req.params.id);
-    //         if (!data) return res.status(404).json({ message: "Product not found" });
-    //         await data.update(req.body);
-    //         res.json(data);
-    //     } catch (error) {
-    //         res.status(400).json({ message: error.message });
-    //     } 
-    // }
+    static async updateQuestion(req, res) {
+        try {
+            let userId = req.userData.id;
+            const data = await Questions.findByPk(req.params.id);
+            if (!data) return res.status(404).json({ message: "Question not found" });
+            await data.update(req.body);
+            res.status(200).json({
+                message: "Questions updated successfully",
+                status: 200,
+                data: data
+            });
+        } catch (error) {
+            res.status(400).json({ message: error.message });
+        } 
+    }
 
     // static async deleteProduct(req, res) {
     //     try {

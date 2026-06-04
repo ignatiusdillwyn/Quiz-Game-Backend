@@ -9,18 +9,18 @@ questionRouter.post(
   authentication,
   QuestionsController.createQuestion
 );
-// questionRouter.delete(
-//   "/delete/:id",
-//   authentication,
-//   authorization,
-//   QuestionsController.deleteProduct
-// );
-// questionRouter.put(
-//   "/edit/:id",
-//   authentication,
-//   authorization,
-//   QuestionsController.updateProduct
-// );
+questionRouter.delete(
+  "/delete/:id",
+  authentication,
+  authorization,
+  QuestionsController.deleteProduct
+);
+questionRouter.put(
+  "/editQuestion/:id",
+  authentication,
+  authorization,
+  QuestionsController.updateQuestion
+);
 questionRouter.get(
   "/getListQuestionByUserId",
   authentication,
