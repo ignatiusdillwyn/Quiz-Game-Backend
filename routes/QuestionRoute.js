@@ -10,10 +10,10 @@ questionRouter.post(
   QuestionsController.createQuestion
 );
 questionRouter.delete(
-  "/delete/:id",
+  "/deleteQuestion/:id",
   authentication,
   authorization,
-  QuestionsController.deleteProduct
+  QuestionsController.deleteQuestionById
 );
 questionRouter.put(
   "/editQuestion/:id",
@@ -26,12 +26,12 @@ questionRouter.get(
   authentication,
   QuestionsController.getAllQuestionByUserId
 );
-// questionRouter.get(
-//   "/search/:name",
-//   authentication,
-//   // authorization,
-//   QuestionsController.searchProduct
-// );
+questionRouter.delete(
+  "/deleteBatchQuestion",
+  authentication,
+  // authorization,
+  QuestionsController.deleteBatchQuestion
+);
 
 // questionRouter.put(
 //   '/updateProductImage/:id',

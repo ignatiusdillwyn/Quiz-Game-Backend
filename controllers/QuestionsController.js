@@ -103,20 +103,55 @@ class QuestionsController {
             });
         } catch (error) {
             res.status(400).json({ message: error.message });
-        } 
+        }
     }
 
-    // static async deleteProduct(req, res) {
-    //     try {
-    //         let userId = req.userData.id;
-    //         const data = await Product.findByPk(req.params.id);
-    //         if (!data) return res.status(404).json({ message: "Product not found" });
-    //         await data.destroy();
-    //         res.json({ message: "Product deleted" });
-    //     } catch (error) {
-    //         res.status(500).json({ message: error.message });
-    //     }
-    // }
+    static async deleteQuestionById(req, res) {
+        try {
+            let userId = req.userData.id;
+            const data = await Questions.findByPk(req.params.id);
+            if (!data) return res.status(404).json({ message: "Question not found" });
+            await data.destroy();
+            res.status(200).json({
+                status: 200,
+                message: "Question deleted successfully",
+            })
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    static async deleteBatchQuestion(req, res) {
+        try {
+            let userId = req.userData.id;
+            let code = req.query.code;
+
+            const data1 = await sequelize.query(`
+                SELECT * FROM "Questions" q 
+                WHERE code = :code
+            `, {
+                replacements: { code: code },
+                type: Sequelize.QueryTypes.SELECT
+            });
+            
+            if (data1.length == 0) return res.status(404).json({ message: "Question not found" });
+
+            const data2 = await sequelize.query(`
+                DELETE FROM "Questions" 
+                WHERE code = :code
+            `, {
+                replacements: { code: code },
+                type: Sequelize.QueryTypes.SELECT
+            });
+
+            res.status(200).json({
+                status: 200,
+                message: "Question deleted successfully",
+            })
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 
     // static async searchProduct(req, res) {
     //     try {

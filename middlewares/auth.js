@@ -35,7 +35,7 @@ const authorization = async (req, res, next) => {
       }
     } else {
       throw {
-        message: "Item not found",
+        message: "Question not found",
       };
     }
   } catch (err) {
