@@ -3,11 +3,13 @@
 const UserPostQuestionsController = require("./UserPostQuestionsController");
 const UserParticipantController = require("./UserParticipantController");
 const QuestionsController = require("./QuestionsController");
+const LeaderbordController = require("./LeaderbordController");
 
 module.exports = {
   UserPostQuestionsController,
   UserParticipantController,
-  QuestionsController
+  QuestionsController,
+  LeaderbordController,
   // UserController,
   // ProductController,
 };
