@@ -21,11 +21,11 @@ leaderbordRouter.post(
 //   authorization,
 //   QuestionsController.updateQuestion
 // );
-// leaderbordRouter.get(
-//   "/getListQuestionByUserId",
-//   authentication,
-//   QuestionsController.getAllQuestionByUserId
-// );
+leaderbordRouter.get(
+  "/getLeaderbordScoreByQuestionCode/:code",
+  // authentication,
+  LeaderbordController.getLeaderbordScoreByQuestionCode
+);
 // leaderbordRouter.delete(
 //   "/deleteBatchQuestion",
 //   authentication,

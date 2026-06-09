@@ -26,32 +26,32 @@ class LeaderbordController {
         }
     }
 
-    // static async getAllQuestionByUserId(req, res) {
-    //     try {
-    //         let userId = req.userData.id;
+    static async getLeaderbordScoreByQuestionCode(req, res) {
+        try {
+            // let userId = req.userData.id;
+            let code = req.params.code;
 
-    //         const data = await sequelize.query(`
-    //             SELECT * FROM "Questions" q 
-    //             JOIN "Options" o ON q.id = o.question_id 
-    //             WHERE q.user_id = :userId
-    //         `, {
-    //             replacements: { userId: userId },
-    //             type: Sequelize.QueryTypes.SELECT
-    //         });
+            const data = await sequelize.query(`
+                select * from "Leaderbords" l 
+                where code = :code
+            `, {
+                replacements: { code: code },
+                type: Sequelize.QueryTypes.SELECT
+            });
 
-    //         if (!data || data.length === 0) {
-    //             return res.status(404).json({ message: "Questions not found for this user" });
-    //         }
+            if (!data || data.length === 0) {
+                return res.status(404).json({ message: "Leaderbord not found" });
+            }
 
-    //         res.status(200).json({
-    //             message: "Questions retrieved successfully",
-    //             status: 200,
-    //             data: data
-    //         });
-    //     } catch (error) {
-    //         res.status(500).json({ message: error.message });
-    //     }
-    // }
+            res.status(200).json({
+                message: "Leaderbord retrieved successfully",
+                status: 200,
+                data: data
+            });
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 
     // static async updateQuestion(req, res) {
     //     try {
@@ -96,7 +96,7 @@ class LeaderbordController {
     //             replacements: { code: code },
     //             type: Sequelize.QueryTypes.SELECT
     //         });
-            
+
     //         if (data1.length == 0) return res.status(404).json({ message: "Question not found" });
 
     //         const data2 = await sequelize.query(`
