@@ -2,8 +2,6 @@ const { QuestionsController } = require("../controllers");
 const { authentication, authorization } = require("../middlewares/auth");
 const questionRouter = require("express").Router();
 
-
-// questionRouter.get("/getAll", authentication, QuestionsController.getAllProduct);
 questionRouter.post(
   "/create",
   authentication,
@@ -25,6 +23,11 @@ questionRouter.get(
   "/getListQuestionByUserId",
   authentication,
   QuestionsController.getAllQuestionByUserId
+);
+questionRouter.get(
+  "/getListQuestionByCode",
+  // authentication,
+  QuestionsController.getAllQuestionbyCode
 );
 questionRouter.delete(
   "/deleteBatchQuestion",

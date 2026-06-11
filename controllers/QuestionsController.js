@@ -1,25 +1,30 @@
 const { Questions, Options, sequelize } = require("../models");
 const { Sequelize } = require("sequelize");
 const axios = require("axios");
+const { generateCode} = require("../utils");
 // const { encryptPwd, decryptPwd } = require("../helpers/bcrypt");
 // const { tokenGenerator } = require("../helpers/jwt");
 
 class QuestionsController {
-    // static async getAllProduct(req, res) {
-    //     try {
-    //         console.log('get all product')
-    //         let userId = req.userData.id;
-    //         const data = await Product.findAll({
-    //             where: { UserId: userId }
-    //         });
-    //         res.status(201).json({
-    //             message: "Product created successfully",
-    //             data: data
-    //         });
-    //     } catch (error) {
-    //         res.status(500).json({ message: error.message });
-    //     }
-    // }
+    //Ini untuk nampilin seluruh question untuk participant based on code paket soal
+    static async getAllQuestionbyCode(req, res) {
+        try {
+            console.log('get all product')
+            // let userId = req.userData.id;
+            let code = req.query.code;
+            
+            const data = await Questions.findAll({
+                where: { code: code }
+            });
+            res.status(201).json({
+                message: "Get Questions by code successfully",
+                status: 201,
+                data: data
+            });
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 
     static async createQuestion(req, res) {
         try {
@@ -43,15 +48,6 @@ class QuestionsController {
                 correct_answer: req.body.correct_answer,
                 question_id: dataQuestion.id
             })
-
-            // const fullQuestion = await Questions.findByPk(dataQuestion.id, {
-            //     include: [{
-            //         model: Options,
-            //         attributes: ['option_1', 'option_2', 'option_3', 'option_4', 'correct_answer']
-            //         // atau kalau mau semua field: include: [Options]
-            //     }]
-            // });
-            // console.log('Full question with options:', fullQuestion.option.id);
 
             res.status(201).json({
                 message: "Question created successfully",
