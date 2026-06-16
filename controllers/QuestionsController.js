@@ -10,11 +10,17 @@ class QuestionsController {
     static async getAllQuestionbyCode(req, res) {
         try {
             console.log('get all product')
-            // let userId = req.userData.id;
+            let userId = req.userData.id;
             let code = req.query.code;
-            
-            const data = await Questions.findAll({
-                where: { code: code }
+
+            const data = await sequelize.query(`
+                SELECT * FROM "Questions" q 
+                JOIN "Options" o ON q.id = o.question_id 
+                WHERE q.user_id = :userId and q.code = :code
+                order by q.code asc
+            `, {
+                replacements: { userId: userId, code: code },
+                type: Sequelize.QueryTypes.SELECT
             });
             res.status(201).json({
                 message: "Get Questions by code successfully",
@@ -67,6 +73,7 @@ class QuestionsController {
                 SELECT * FROM "Questions" q 
                 JOIN "Options" o ON q.id = o.question_id 
                 WHERE q.user_id = :userId
+                order by q.code asc
             `, {
                 replacements: { userId: userId },
                 type: Sequelize.QueryTypes.SELECT
@@ -149,26 +156,48 @@ class QuestionsController {
         }
     }
 
-    // static async searchProduct(req, res) {
-    //     try {
-    //         let userId = req.userData.id;
-    //         const { name } = req.params;
-    //         console.log('search product ', name)
-    //         console.log('userId ', userId)
-    //         const data = await Product.findAll({
-    //             where: {
-    //                 UserId: userId,
-    //                 [Op.or]: [
-    //                     { name: { [Op.iLike]: `%${name}%` } },
-    //                     // { email: { [Op.iLike]: `%${name}%` } },
-    //                 ],
-    //             },
-    //         });
-    //         res.json(data);
-    //     } catch (error) {
-    //         res.status(500).json({ message: error.message });
-    //     }
-    // }
+    //Ini untuk checking apakah code paket soal yang dibuat sudah ada atau belum, karena code itu harus unique dipakai pas buat soal di frontend
+    static async getAllCodefromDB(req, res) {
+        try {
+            const code = await sequelize.query(`
+                select distinct code from "Questions" q 
+            `, {
+                type: Sequelize.QueryTypes.SELECT
+            });
+
+            res.status(200).json({
+                status: 200,
+                message: "Get All Code Successfully",
+                data: code
+            })
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
+
+    //Ini untuk tampilin paket-paket soal di front end
+    static async getAllQuestionPackagebyUserId(req, res) {
+        try {
+            let userId = req.userData.id;
+
+            const data = await sequelize.query(`
+                select code, count(code) as total_question from "Questions" q 
+                where q.user_id = :userId
+                group by code
+            `, {
+                replacements: { userId: userId },
+                type: Sequelize.QueryTypes.SELECT
+            });
+
+            res.status(200).json({
+                status: 200,
+                message: "Get All Questions Package Successfully",
+                data: data
+            })
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 }
 
 module.exports = QuestionsController

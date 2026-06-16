@@ -26,7 +26,7 @@ questionRouter.get(
 );
 questionRouter.get(
   "/getListQuestionByCode",
-  // authentication,
+  authentication,
   QuestionsController.getAllQuestionbyCode
 );
 questionRouter.delete(
@@ -35,12 +35,15 @@ questionRouter.delete(
   // authorization,
   QuestionsController.deleteBatchQuestion
 );
-
-// questionRouter.put(
-//   '/updateProductImage/:id',
-//   authentication, 
-//   upload.single('image'),
-//   QuestionsController.updateProductImage
-// );
+questionRouter.get(
+  "/getAllCode",
+  // authentication,
+  QuestionsController.getAllCodefromDB
+);
+questionRouter.get(
+  "/getAllQuestionPackagebyUserId",
+  authentication,
+  QuestionsController.getAllQuestionPackagebyUserId
+);
 
 module.exports = questionRouter;
