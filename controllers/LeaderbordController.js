@@ -29,7 +29,7 @@ class LeaderbordController {
     static async getLeaderbordScoreByQuestionCode(req, res) {
         try {
             // let userId = req.userData.id;
-            let code = req.params.code;
+            let code = req.query.code;
 
             const data = await sequelize.query(`
                 select * from "Leaderbords" l 

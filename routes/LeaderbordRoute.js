@@ -22,7 +22,7 @@ leaderbordRouter.post(
 //   QuestionsController.updateQuestion
 // );
 leaderbordRouter.get(
-  "/getLeaderbordScoreByQuestionCode/:code",
+  "/getLeaderbordScoreByQuestionCode",
   // authentication,
   LeaderbordController.getLeaderbordScoreByQuestionCode
 );
