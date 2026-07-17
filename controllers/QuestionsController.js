@@ -198,6 +198,27 @@ class QuestionsController {
             res.status(500).json({ message: error.message });
         }
     }
+
+    //Ini untuk tampilin paket-paket soal di front end
+    static async getAllQuestionPackage(req, res) {
+        try {
+            const data = await sequelize.query(`
+                select code, count(code) as total_question from "Questions" q 
+                group by code
+            `, {
+                replacements: { userId: userId },
+                type: Sequelize.QueryTypes.SELECT
+            });
+
+            res.status(200).json({
+                status: 200,
+                message: "Get All Questions Package Successfully",
+                data: data
+            })
+        } catch (error) {
+            res.status(500).json({ message: error.message });
+        }
+    }
 }
 
 module.exports = QuestionsController
