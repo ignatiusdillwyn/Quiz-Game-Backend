@@ -46,9 +46,14 @@ questionRouter.get(
   QuestionsController.getAllQuestionPackagebyUserId
 );
 questionRouter.get(
-  "/getAllQuestionPackage",
+  "/getAllQuestionPackageForParticipant",
   authentication,
-  QuestionsController.getAllQuestionPackage
+  QuestionsController.getAllQuestionPackageForParticipant
+);
+questionRouter.get(
+  "/getAllQuestionPackagebyUserIdForParticipant",
+  authentication,
+  QuestionsController.getAllQuestionPackagebyUserIdForParticipant
 );
 
 module.exports = questionRouter;
