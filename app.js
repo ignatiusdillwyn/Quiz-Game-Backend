@@ -19,7 +19,7 @@ app.use(cors({
 
 app.use(routes)
 
-console.log('Server is running on port', port)
+// console.log('Server is running on port', port)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
