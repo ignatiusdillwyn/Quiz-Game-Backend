@@ -47,23 +47,23 @@ class QuestionsController {
             console.log('create question ', req.body)
             // let userId = req.userData.id;
 
-            // const dataQuestion = await Questions.create({
-            //     question_text: req.body.question_text,
-            //     score: 100,
-            //     user_id: userId,
-            //     code: req.body.code
-            // });
+            const dataQuestion = await Questions.create({
+                question_text: req.body.question_text,
+                score: 100,
+                user_id: userId,
+                code: req.body.code
+            });
 
-            // // console.log('data question ', dataQuestion.id)
+            // console.log('data question ', dataQuestion.id)
 
-            // const dataOptions = await Options.create({
-            //     option_1: req.body.options[0],
-            //     option_2: req.body.options[1],
-            //     option_3: req.body.options[2],
-            //     option_4: req.body.options[3],
-            //     correct_answer: req.body.correct_answer,
-            //     question_id: dataQuestion.id
-            // })
+            const dataOptions = await Options.create({
+                option_1: req.body.options[0],
+                option_2: req.body.options[1],
+                option_3: req.body.options[2],
+                option_4: req.body.options[3],
+                correct_answer: req.body.correct_answer,
+                question_id: dataQuestion.id
+            })
 
             res.status(201).json({
                 message: "Question created successfully",
