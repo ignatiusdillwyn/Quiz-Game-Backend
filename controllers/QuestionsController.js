@@ -65,11 +65,11 @@ class QuestionsController {
             //     question_id: dataQuestion.id
             // })
 
-            // res.status(201).json({
-            //     message: "Question created successfully",
-            //     status: 201,
-            //     data: req.body
-            // });
+            res.status(201).json({
+                message: "Question created successfully",
+                status: 201,
+                data: req.body
+            });
         } catch (error) {
             res.status(400).json({ message: error.message });
         }
