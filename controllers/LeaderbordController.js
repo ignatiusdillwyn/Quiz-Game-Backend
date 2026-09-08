@@ -28,12 +28,11 @@ class LeaderbordController {
 
     static async getLeaderbordScoreByQuestionCode(req, res) {
         try {
-            // let userId = req.userData.id;
             let code = req.query.code;
 
             const data = await sequelize.query(`
-                select * from "Leaderbords" l 
-                where code = :code
+                SELECT * FROM Leaderbords l 
+                WHERE code = :code
             `, {
                 replacements: { code: code },
                 type: Sequelize.QueryTypes.SELECT

@@ -24,8 +24,8 @@ class QuestionsController {
             // });
 
             const data = await sequelize.query(`
-                SELECT * FROM "Questions" q 
-                JOIN "Options" o ON q.id = o.question_id 
+                SELECT * FROM Questions q 
+                JOIN Options o ON q.id = o.question_id 
                 WHERE q.code = :code
                 order by q.code asc
             `, {
@@ -45,7 +45,7 @@ class QuestionsController {
     static async createQuestion(req, res) {
         try {
             console.log('create question ', req.body)
-            // let userId = req.userData.id;
+            let userId = req.userData.id;
 
             const dataQuestion = await Questions.create({
                 question_text: req.body.question_text,
@@ -80,8 +80,8 @@ class QuestionsController {
             let userId = req.userData.id;
 
             const data = await sequelize.query(`
-                SELECT * FROM "Questions" q 
-                JOIN "Options" o ON q.id = o.question_id 
+                SELECT * FROM Questions q 
+                JOIN Options o ON q.id = o.question_id 
                 WHERE q.user_id = :userId
                 order by q.code asc
             `, {
@@ -136,33 +136,42 @@ class QuestionsController {
 
     static async deleteBatchQuestion(req, res) {
         try {
-            // let userId = req.userData.id;
             let code = req.query.code;
 
+            // Check if the question exists
             const data1 = await sequelize.query(`
-                SELECT * FROM "Questions" q 
+                SELECT * FROM Questions q 
                 WHERE code = :code
             `, {
                 replacements: { code: code },
                 type: Sequelize.QueryTypes.SELECT
             });
 
-            if (data1.length == 0) return res.status(404).json({ message: "Question not found" });
+            if (data1.length === 0) {
+                return res.status(404).json({
+                    message: "Question not found"
+                });
+            }
 
+            // Perform DELETE operation
             const data2 = await sequelize.query(`
-                DELETE FROM "Questions" 
+                DELETE FROM Questions 
                 WHERE code = :code
             `, {
                 replacements: { code: code },
-                type: Sequelize.QueryTypes.SELECT
+                type: Sequelize.QueryTypes.DELETE // Change this!
             });
 
             res.status(200).json({
                 status: 200,
                 message: "Question deleted successfully",
-            })
+                deletedCount: data2 // Optional: number of rows affected
+            });
+
         } catch (error) {
-            res.status(500).json({ message: error.message });
+            res.status(500).json({
+                message: error.message
+            });
         }
     }
 
@@ -170,7 +179,7 @@ class QuestionsController {
     static async getAllCodefromDB(req, res) {
         try {
             const code = await sequelize.query(`
-                select distinct code from "Questions" q 
+                select distinct code from Questions q 
             `, {
                 type: Sequelize.QueryTypes.SELECT
             });
@@ -191,7 +200,7 @@ class QuestionsController {
             let userId = req.userData.id;
 
             const data = await sequelize.query(`
-                select code, count(code) as total_question from "Questions" q 
+                select code, count(code) as total_question from Questions q 
                 where q.user_id = :userId
                 group by code
             `, {
@@ -213,8 +222,8 @@ class QuestionsController {
     static async getAllQuestionPackageForParticipant(req, res) {
         try {
             const data = await sequelize.query(`
-                select q.user_id, code, count(code) as total_question from "Questions" q 
-                join "UserPostQuestions" upq ON upq.id = q.user_id 
+                select q.user_id, code, count(code) as total_question from Questions q 
+                join UserPostQuestions upq ON upq.id = q.user_id 
                 group by code, q.user_id 
             `, {
                 type: Sequelize.QueryTypes.SELECT
@@ -235,7 +244,7 @@ class QuestionsController {
             let userId = req.query.authorId;
 
             const data = await sequelize.query(`
-                select code, count(code) as total_question from "Questions" q 
+                select code, count(code) as total_question from Questions q 
                 where q.user_id = :userId
                 group by code
             `, {
