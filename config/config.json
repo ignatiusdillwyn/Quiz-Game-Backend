@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "Ultraman2!",
-    "database": "quiz-games", 
+    "username": "dilt3754_quiz-games-user",
+    "password": "{x6J%jPLJj,EzDu3",
+    "database": "dilt3754_quiz-games", 
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
