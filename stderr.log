@@ -1,0 +1,1141 @@
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
+/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55
+        throw new Error(`Please install ${moduleName} package manually`);
+        ^
+
+Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:55:15)
+    at new ConnectionManager (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:30:21)
+    at new MysqlDialect (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/dialects/mysql/index.js:13:30)
+    at new Sequelize (/home/dilt3754/nodevenv/public_html/api-quiz-games.dillwyn.my.id/quizGames/20/lib/node_modules/sequelize/lib/sequelize.js:194:20)
+    at Object.<anonymous> (/home/dilt3754/public_html/api-quiz-games.dillwyn.my.id/quizGames/models/index.js:16:15)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2
