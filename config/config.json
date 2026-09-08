@@ -4,7 +4,7 @@
     "password": "{x6J%jPLJj,EzDu3",
     "database": "dilt3754_quiz-games", 
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
